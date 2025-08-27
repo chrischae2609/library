@@ -1,0 +1,160 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(200, 197, 197);
+}
+
+h1 {
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#form-section {
+    width: 180px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#new-book {
+    background-color: rgb(242, 242, 128);
+    width: 180px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#new-book:hover {
+    background-color: rgb(182, 182, 49);
+}
+
+.book-form {
+    background-color: rgb(162, 162, 203);
+    border: 3px solid black;
+    border-left: 20px solid black;
+    border-radius: 10px;
+    width: 180px;
+    height: 450px;
+    box-sizing: border-box;
+}
+
+.book-form h3 {
+    text-align: center;
+}
+
+.title-form, .author-form, .pages-form {
+    display: block;
+    margin: auto;
+}
+
+#checkbox {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 10px;
+}
+
+#readCheck:hover {
+    cursor: pointer;
+}
+
+#checkbox label:hover {
+    cursor: pointer;
+}
+
+#save, #cancel {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+#save {
+    background-color: rgb(160, 232, 160);
+    border-radius: 5px;
+    border: 3px solid rgb(6, 49, 6);
+    margin-bottom: 5px;
+}
+
+#save:hover {
+    background-color: rgb(120, 186, 120)
+}
+
+#cancel {
+    background-color: rgb(255, 137, 137);
+    border-radius: 5px;
+    border: 3px solid rgb(157, 17, 17);
+    margin-bottom: 10px;
+}
+
+#cancel:hover {
+    background-color: rgb(208, 113, 113)
+}
+
+#book-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    min-width: 200px;
+    margin: auto;
+}
+
+.book-card {
+    background-color: rgb(202, 175, 148);
+    border: 3px solid black;
+    border-left: 25px solid rgb(90, 66, 27);
+    border-radius: 10px;
+    width: 180px;
+    height: 280px;
+    margin: 10px;
+}
+
+.info {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.read-status {
+    font-weight: 650;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.mark, .remove {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.mark {
+    border-radius: 5px;
+}
+
+.mark:hover {
+    background-color: rgb(164, 163, 163);
+}
+
+.remove {
+    background-color: rgb(255, 137, 137);
+    border-radius: 5px;
+    border: 3px solid rgb(157, 17, 17);
+}
+
+.remove:hover {
+    background-color: rgb(208, 113, 113)
+}
